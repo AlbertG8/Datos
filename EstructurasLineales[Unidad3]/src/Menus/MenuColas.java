@@ -1,11 +1,13 @@
 package Menus;
 
-import EntradaSalida.toolsList;
+import Colas.*;
+
 import javax.swing.*;
-public class MenuMain {
+
+public class MenuColas {
 
     public static void main(String[] args) {
-        String menu = "Pilas,Colas,Salir";
+        String menu = "ColaEstatica,Queue,ArrayList,ColasEnlazadas,Salir";
         menu3(menu);
     }
 
@@ -25,13 +27,21 @@ public class MenuMain {
         do {
             sel=boton(menu);
             switch(sel){
-                case "Pilas":
-                    String menu1= "PilaEstatica,Stack,ArrayList,PilasEnlazadas,Salir";
-                    menu3(menu1);
+                case "ColaEstatica":
+                    String menu1 = "Push,Pop,Peek,Free,Salir";
+                    ColaEstatica.menu3(menu1);
                     break;
-                case "Colas":
-                    String menu2 = "ColaEstatica,Queue,ArrayList,ColasEnlazadas,Salir";
-                    menu3(menu2);
+                case "Queue":
+                    String menu2 = "Push,Pop,Peek,Free,Salir";
+                    ColaQueue.menu3(menu2);
+                    break;
+                case "ArrayList":
+                    String menu3 = "Push,Pop,Peek,Free,Salir";
+                    ColaArrayList.menu3(menu3);
+                    break;
+                case "ColasEnlazadas":
+                    String menu4 = "Push,Pop,Peek,Free,Salir";
+                    ColasEnlazadas.menu3(menu4);
                     break;
                 case "Salir":;  break;
             }
