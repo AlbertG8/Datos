@@ -1,12 +1,12 @@
 package Menus;
 
-import EntradaSalida.toolsList;
 import javax.swing.*;
-public class MenuMain {
 
+public class MenuMain {
     public static void main(String[] args) {
-        String menu = "Pilas,Colas,Salir";
+        String menu ="Iterativos,Recursivos,Salir";
         menu3(menu);
+
     }
 
     public static String boton(String menu) {
@@ -25,16 +25,20 @@ public class MenuMain {
         do {
             sel=boton(menu);
             switch(sel){
-                case "Pilas":
-                    String menu1= "PilaEstatica,Stack,ArrayList,PilasEnlazadas,Salir";
-                    menu3(menu1);
+                case "Iterativos":
+                    String menuI = "UsoWhile,UsoDoWhile,UsoFor,TablaDeMultiplicar,ImprimeArray," +
+                            "SumaDivisores,Burbuja,ContadorDigitos," +
+                            "DecimalOctal,PotenciaNumeros,BinarioDecimal,NumeroFibonacci,RaizCuadrada,Palindromo,Salir";
+                    menuIterativo.menuIterativos(menuI);
                     break;
-                case "Colas":
-                    String menu2 = "ColaEstatica,Queue,ArrayList,ColasEnlazadas,Salir";
-                    menu3(menu2);
-                    break;
+                case "Recursivos":
+                    String menuR = "Impresionlista,TablaMultiplicar,ImprimeArray,SumaDivisores,NumerosAmigos,ContadorDigitos,InvertirNumeros,Burbuja,DecimalOctal," +
+                            "BinarioDecimal,NumeroFibonacci,RaizCuadrada,Palindromo,Salir";
+                    menuRecursivo.menuRecursivos(menuR);
+                   break;
                 case "Salir":;  break;
             }
         }while(!sel.equalsIgnoreCase("Salir"));
     }
+
 }

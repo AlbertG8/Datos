@@ -1,5 +1,6 @@
-package Metodos;
+package Menus;
 
+import Metodos.FuncionesIterativas;
 import Tools.ToolsList;
 
 import javax.swing.*;

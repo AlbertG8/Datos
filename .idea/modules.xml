@@ -3,9 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Datos.iml" filepath="$PROJECT_DIR$/.idea/Datos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Recursividad/Recursividad.iml" filepath="$PROJECT_DIR$/Recursividad/Recursividad.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DatosOrdenadosSimples/Unidad1.iml" filepath="$PROJECT_DIR$/DatosOrdenadosSimples/Unidad1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/EstructurasLineales/src.iml" filepath="$PROJECT_DIR$/EstructurasLineales/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad[Unidad2]/Recursividad.iml" filepath="$PROJECT_DIR$/Recursividad[Unidad2]/Recursividad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatosSimples[Unidad1]/Unidad1.iml" filepath="$PROJECT_DIR$/DatosSimples[Unidad1]/Unidad1.iml" />
     </modules>
   </component>
 </project>

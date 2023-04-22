@@ -1,7 +1,5 @@
 package Metodos;
 
-import Tools.ToolsList;
-
 public class FuncionesRecursivas {
 
     public static String funcionIterativa(int j, int n) {
@@ -52,7 +50,6 @@ public class FuncionesRecursivas {
         return cont;
     }
 
-    
     public static int invertirNumero(int numero, int invertido)
     {
         if(numero>0) return invertirNumero(numero/10, ((invertido*10) + (numero%10)));

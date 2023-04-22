@@ -1,8 +1,8 @@
-package EntradaSalida;
+package Tools;
 
 import javax.swing.*;
 
-public class toolsList {
+public class ToolsList {
         public static byte leerByte(String msje){
             return(Byte.parseByte(JOptionPane.showInputDialog(null,msje,"Lectura Byte",JOptionPane.QUESTION_MESSAGE)));
         }

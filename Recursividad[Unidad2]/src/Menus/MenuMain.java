@@ -1,15 +1,8 @@
-package Tests;
-
-import Metodos.EjerciciosPOO;
-import Metodos.FuncionesIterativas;
-import Metodos.menuIterativo;
-import Metodos.menuRecursivo;
-import Tools.ToolsList;
+package Menus;
 
 import javax.swing.*;
-import javax.tools.Tool;
 
-public class MenuUnidad2 {
+public class MenuMain {
     public static void main(String[] args) {
         String menu ="Iterativos,Recursivos,Salir";
         menu3(menu);

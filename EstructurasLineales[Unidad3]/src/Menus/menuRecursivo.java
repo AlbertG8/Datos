@@ -1,5 +1,6 @@
-package Metodos;
+package Menus;
 
+import Metodos.FuncionesRecursivas;
 import Tools.ToolsList;
 
 import javax.swing.*;
@@ -49,7 +50,7 @@ public class menuRecursivo {
                         ToolsList.imprimePantalla(FuncionesRecursivas.imprimeArray(0,burbuja));
                         break;
                     case "DecimalOctal":
-                        ToolsList.imprimePantalla(Ejercicios.decimalOctalRecursivo(0,1,ToolsList.leerInt("Ingresa el numero que desea convertir a octal")));
+                        ToolsList.imprimePantalla(FuncionesRecursivas.decimalOctalRecursivo(0,1,ToolsList.leerInt("Ingresa el numero que desea convertir a octal")));
                         break;
                     case "PotenciaNumeros":
                         ToolsList.imprimePantalla("Su potencia es: " + FuncionesRecursivas.potenciaNumerosRecursivo(0,ToolsList.leerInt("Que numero deseas elevar?"),ToolsList.leerInt("A que potencia deseas elevarlo?"),0));
