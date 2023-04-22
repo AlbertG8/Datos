@@ -1,11 +1,11 @@
-package Tests;
+package Menus;
 
 import Metodos.ArreglosOrdenados;
 import Tools.ToolsList;
 
 import javax.swing.*;
 
-public class TestArreglosOrdenados {
+public class MenuDatosOrdenados {
     public static void main(String[] args)
     {
         String menu2="Agregar,Imprimir,Busqueda,Modificar,Eliminar,Salir";
