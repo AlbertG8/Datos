@@ -1,7 +1,7 @@
 package Colas;
 
-import EntradaSalida.toolsList;
 import ColaEstatica.ColaA;
+import EntradaSalida.toolsList;
 
 import javax.swing.*;
 

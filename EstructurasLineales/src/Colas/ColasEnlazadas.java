@@ -1,7 +1,7 @@
 package Colas;
 
-import EntradaSalida.toolsList;
 import ColasDinamicas.ColaD;
+import EntradaSalida.toolsList;
 
 import javax.swing.*;
 

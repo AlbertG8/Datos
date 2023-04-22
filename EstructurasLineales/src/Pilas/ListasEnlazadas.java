@@ -1,8 +1,6 @@
 package Pilas;
-
 import EntradaSalida.toolsList;
-import PilasDinamicas.*;
-
+import PilasDinamicas.PilaD;
 import javax.swing.*;
 
 public class ListasEnlazadas {
